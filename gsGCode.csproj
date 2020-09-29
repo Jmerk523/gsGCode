@@ -74,10 +74,13 @@
     <Compile Include="assemblers\AssemblerUtil.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\geometry3Sharp\geometry3Sharp.csproj">
-      <Project>{0c518dda-28fe-44ca-9ab0-f9773974f13a}</Project>
-      <Name>geometry3Sharp</Name>
-    </ProjectReference>
+    <!-- <ProjectReference Include="..\geometry3Sharp\geometry3Sharp.csproj"> -->
+      <!-- <Project>{0c518dda-28fe-44ca-9ab0-f9773974f13a}</Project> -->
+      <!-- <Name>geometry3Sharp</Name> -->
+    <!-- </ProjectReference> -->
+    <PackageReference Include="geometry3Sharp">
+      <Version>1.0.289</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
