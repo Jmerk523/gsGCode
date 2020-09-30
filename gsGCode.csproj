@@ -74,12 +74,12 @@
     <Compile Include="assemblers\AssemblerUtil.cs" />
   </ItemGroup>
   <ItemGroup>
-    <!-- <ProjectReference Include="..\geometry3Sharp\geometry3Sharp.csproj"> -->
-      <!-- <Project>{0c518dda-28fe-44ca-9ab0-f9773974f13a}</Project> -->
-      <!-- <Name>geometry3Sharp</Name> -->
-    <!-- </ProjectReference> -->
-    <PackageReference Include="geometry3Sharp">
-      <Version>1.0.289</Version>
+    <ProjectReference Include="..\geometry3Sharp\geometry3Sharp.csproj">
+      <Project>{0c518dda-28fe-44ca-9ab0-f9773974f13a}</Project>
+      <Name>geometry3Sharp</Name>
+    </ProjectReference>
+    <PackageReference Include="UnityEngine">
+      <Version>2.0.1</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
